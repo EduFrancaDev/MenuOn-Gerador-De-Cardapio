@@ -1,17 +1,18 @@
-blinker==1.9.0
-certifi==2025.4.26
-charset-normalizer==3.4.2
-click==8.1.8
-Flask==3.1.0
-idna==3.10
-itsdangerous==2.2.0
-Jinja2==3.1.6
-MarkupSafe==3.0.2
-pillow==11.2.1
-psycopg2==2.9.10
-psycopg2-binary==2.9.10
-python-dotenv==1.1.0
-qrcode==8.2
-requests==2.32.3
-urllib3==2.4.0
-Werkzeug==3.1.3
+blinker==1.9.0             # Biblioteca de sinais usada internamente por Flask para comunicação entre componentes (como signals para eventos)
+certifi==2025.4.26         # Certificados HTTPS atualizados — garante segurança em requisições web com o `requests`, por exemplo
+charset-normalizer==3.4.2  # Ajuda na detecção e correção de codificação de texto (encoding) em requisições HTTP
+click==8.1.8               # Framework de linha de comando usado pelo Flask (e outros) para criar comandos no terminal
+Flask==3.1.0               # Framework principal do projeto — servidor web leve para criar aplicações em Python
+idna==3.10                 # Suporte a nomes de domínios internacionais (ex: acentuação em URLs), usado por `requests`
+itsdangerous==2.2.0        # Utilitário para assinar e validar tokens — usado internamente por Flask para cookies seguros e tokens
+Jinja2==3.1.6              # Template engine do Flask — permite usar `{% ... %}` e `{{ ... }}` nos arquivos `.html`
+MarkupSafe==3.0.2          # Segurança contra injeção de HTML — protege os templates do Jinja2 escapando conteúdo perigoso
+pillow==11.2.1             # Biblioteca para manipulação de imagens — usada se você quiser gerar, redimensionar ou salvar imagens
+psycopg2==2.9.10           # Driver de conexão com banco de dados PostgreSQL (recomendado para produção)
+psycopg2-binary==2.9.10    # Versão com binários já compilados do psycopg2 (mais fácil de instalar em dev, menos customizável)
+python-dotenv==1.1.0       # Permite ler variáveis de ambiente do arquivo `.env` (como chaves secretas, URL do banco etc)
+qrcode==8.2                # Biblioteca para gerar QRCodes (provavelmente usada no seu `Consultar_QRCode.py`)
+requests==2.32.3           # Biblioteca poderosa e fácil para fazer requisições HTTP (GET, POST etc.)
+urllib3==2.4.0             # Motor HTTP usado por baixo do `requests` para fazer conexões com a internet
+Werkzeug==3.1.3            # Toolkit WSGI que o Flask usa internamente para lidar com requisições, rotas, erros e mais
+
