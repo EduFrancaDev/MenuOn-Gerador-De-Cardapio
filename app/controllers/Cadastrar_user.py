@@ -32,7 +32,7 @@ def cadastrar_user_endpoint():
     
     if result is not False:
         # Gera o QR Code usando a URL construída com o ID do restaurante/cadastrado
-        url = f"https://curly-dollop-r4r794w4p957frxw-5000.app.github.dev/cardapio/{result}"
+        url = f"https://15e2-45-176-18-173.ngrok-free.app/cardapio/{result}"
         gerar_qrcode(url, result)
         return jsonify({"user_id": result}), 200
     else:
