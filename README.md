@@ -1,4 +1,30 @@
-# MenuOn---Gerador-de-Card-pio-
+🍽️ Menu On - Gerador de Cardápios Online
+
+Menu On é uma plataforma digital pensada para modernizar o gerenciamento de cardápios em restaurantes, lanchonetes, bares e demais estabelecimentos do setor alimentício. Com uma interface simples e funcional, o sistema permite o cadastro e exibição de pratos, bebidas e sobremesas — tudo acessível por meio de um QR Code.
+
+🚀 Funcionalidades
+Cadastro de restaurante com tipo e categoria
+
+Registro de pratos, bebidas e sobremesas com nome, descrição e imagem
+
+Visualização de cardápio via link ou QR Code
+
+Organização dos itens em categorias
+
+Interface responsiva com HTML, CSS e JavaScript
+
+Backend robusto com Flask + PostgreSQL
+
+🛠️ Tecnologias Utilizadas
+Tecnologia	Descrição	Justificativa
+Python	Linguagem de programação	Base principal do backend
+Flask	Microframework web	Leve e ideal para construção de APIs
+PostgreSQL	Banco de dados relacional	Seguro, escalável e confiável
+HTML/CSS/JavaScript	Front-end clássico	Total controle da interface com código limpo e responsivo
+Git & GitHub	Controle de versão	Colaboração e versionamento de código
+
+🎯 Objetivo do Projeto
+O Menu On busca oferecer uma solução acessível e tecnológica para micro e pequenas empresas do setor alimentício. O sistema reduz custos com impressão de cardápios e melhora a experiência dos clientes ao acessar as opções de forma rápida, visual e interativa, por meio do celular.
 
 Gerador de cardápio para restaurantes
 
